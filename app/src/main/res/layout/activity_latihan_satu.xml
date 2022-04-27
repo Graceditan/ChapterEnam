@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pertama.ActivityLatihanSatu"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_namalatsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_tahunlahirlatsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnhitunglatsatu"
+        android:text="Hitung Umur"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_namalatsatu"
+        android:textSize="25dp"/>
+    <TextView
+        android:textSize="25dp"
+        android:id="@+id/tv_hasilumurlatsaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
